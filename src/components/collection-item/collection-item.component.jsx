@@ -1,3 +1,5 @@
+// Dans Shop/Collection-preview
+
 import React from "react";
 import "./collection-item.styles.scss";
 

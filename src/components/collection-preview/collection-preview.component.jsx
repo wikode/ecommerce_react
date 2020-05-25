@@ -1,8 +1,12 @@
+// Dans Shop
+
 import React from "react";
 import CollectionItem from "../collection-item/collection-item.component";
 
 import "./collection-preview.styles.scss";
 
+// reçoit props de Shop, qui lui-même récupère les données depuis le fichier data
+// Title = titre des collections et items = array qui contient tous les éléments de la collection, chacun avec leurs propres propriétés
 const CollectionPreview = ({ title, items }) => {
   return (
     <div className="collection-preview">

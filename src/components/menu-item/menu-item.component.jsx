@@ -1,5 +1,7 @@
+// Dans Homepage / Directory
+
 import React from "react";
-import { withRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom"; // HOC qui permet de donner accès aux props de la Route associée au component le plus proche (match, location, history)
 
 import "./menu-item.styles.scss";
 
